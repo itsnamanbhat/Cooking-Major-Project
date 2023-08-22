@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Role</title>
+    <link rel="stylesheet" href="/css/stylesMain2.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="mainBox">
+        <div class="text">
+            <p>Select what you want to do</p>
+        </div>
+        <button class="box1 button">cook </button>
+
+        <button class="box2 button">
+            Assist
+        </button>
+    </div>
+</body>
+
+
+<script>
+        document.querySelector(".box2").addEventListener("click",()=>{
+            document.querySelector(".box2").classList.add("pressed");
+            setTimeout(()=>{
+         document.querySelector(".box2") .classList.remove("pressed");
+        },100)
+        })
+
+        document.querySelector(".box1").addEventListener("click",()=>{
+            document.querySelector(".box1").classList.add("pressed");
+            setTimeout(()=>{
+         document.querySelector(".box1") .classList.remove("pressed");
+        },100)
+        })
+
+        document.querySelectorAll(".button").addEventListener("ho")
+
+
+
+</script>
+
+</html>

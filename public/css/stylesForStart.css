@@ -1,0 +1,113 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(../images/pexels-lukas-349610.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.left_img {
+    width: 360.442px;
+    height: 400.683px;
+    position: relative;
+    top: 60px;
+    left: 42px;
+}
+
+.left_text {
+    display: inline-block;
+    position: relative;
+    top: 16rem;
+    right:22rem;
+    width: 402.764px;
+    height: auto;
+    flex-shrink: 0;
+    color: #1E1E1E;
+    text-align: center;
+    font-family: Architects Daughter;
+    font-size: 50.696px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+}
+
+/* signup form styles */
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+
+.card {
+  border-radius: 10px;
+  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.3);
+  width: 400px;
+  height: 400px;
+  background-color: #ffffff;
+  padding: 10px 30px;
+  font-family: "Poppins", sans-serif;
+  position: absolute;
+    left: 40rem;
+    top: 10rem;
+
+}
+
+.card_title {
+  text-align: center;
+  padding: 10px;
+}
+
+.card_title h1 {
+  font-size: 26px;
+  font-weight: bold;
+}
+
+.form input {
+  margin: 10px 0;
+  width: 100%;
+  background-color: #e2e2e2;
+  border: none;
+  outline: none;
+  padding: 12px 20px;
+  border-radius: 4px;
+}
+
+.form button {
+  background-color: #4796ff;
+  color: #ffffff;
+  font-size: 16px;
+  outline: none;
+  border-radius: 5px;
+  border: none;
+  padding: 8px 15px;
+  width: 100%;
+}
+
+.card_terms {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+
+.card_terms input[type="checkbox"] {
+  background-color: #e2e2e2;
+}
+
+.card_terms span {
+  margin: 5px;
+  font-size: 13px;
+}
+
+.card a {
+  color: #4796ff;
+  text-decoration: none;
+}
+
